@@ -127,7 +127,12 @@ ul li{
 }
 
 @media screen and (max-width: 550px) {
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+    }
     .footer-right img{
         height: 40px;
+        padding: 10px 0;
     } 
 }
